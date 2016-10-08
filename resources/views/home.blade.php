@@ -51,7 +51,7 @@
 
     </div>
 </form>
-<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script src="js/app.js"></script>
 <script src="js/typed.js"></script>
 <script src="js/clipboard.min.js"></script>
