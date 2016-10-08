@@ -1,0 +1,138 @@
+body {
+    background: navy url("../img/bg.jpg") no-repeat top;
+    background-repeat: repeat;
+    color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;;
+}
+
+.lighturl {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 56px;
+    text-decoration: normal;
+}
+
+.top {
+    margin-top: 50px;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu li a {
+    color: #f7f7f7;
+}
+
+.menu li:hover {
+    background: #000000;
+    opacity: .2;
+    cursor: pointer;
+}
+
+.light-url {
+    padding: 25px !important;
+    max-width: 500px !important;
+    height: 70px !important;
+    border: none !important;
+    -webkit-border-radius: 8px 0 0 8px !important;
+    -moz-border-radius: 8px 0 0 8px !important;
+    border-radius: 8px 0 0 8px !important;
+    background-color: rgba(255, 255, 255, .25) !important;
+    background-clip: padding-box !important;
+    box-shadow: none;
+    color: #fff !important;
+    font-size: 24px !important;
+}
+
+.light-url::-webkit-input-placeholder {
+    color:gainsboro;
+    font-size: 25px;
+}
+
+.light-url:focus,input.text:focus{
+    outline: none !important;
+    border: 1px solid #f59f06 !important;
+    box-shadow: 0px 0px 3px #f59f06 !important;
+    -moz-box-shadow: 0px 0px 3px #f59f06 !important;
+    -webkit-box-shadow: 0px 0px 3px #f59f06 !important;
+}
+
+.container {
+    padding-left: 40px;
+}
+
+.search .btn {
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    height: 70px;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    border-radius: 0 8px 8px 0;
+    background-color: #f59f06;
+    color: #fff;
+    font-size: 24px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    margin-left: -20px;
+    text-shadow: none;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 200;
+}
+
+.button-text {
+    position: absolute;
+    height: 35px;
+    width: 150px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search .btn:hover {
+    background-color: #B87704;
+    cursor: pointer;
+}
+
+.subtitle {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+}
+
+.empty-space {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.statusHide {
+
+    display:none;
+}
+
+.statusShow {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    background: floralwhite;
+    display:inherit;
+}
+.statusError{
+    font-family: 'Roboto', sans-serif !important;
+    color: darkred;
+}
+.statusSuccess{
+    font-family: 'Roboto', sans-serif !important;
+    color: forestgreen;
+}
