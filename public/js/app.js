@@ -39,7 +39,6 @@ $(function () {
             t = e.target,
             c = t.dataset.copytarget,
             inp = (c ? document.querySelector(c) : null);
-        console.log(inp.select);
         // is element selectable?
         if (inp && inp.select) {
 

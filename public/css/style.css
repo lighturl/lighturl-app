@@ -72,7 +72,7 @@ body {
     -webkit-border-radius: 0 8px 8px 0;
     -moz-border-radius: 0 8px 8px 0;
     border-radius: 0 8px 8px 0;
-    background-color: #f59f06;
+    background-color: #008cba;
     color: #fff;
     font-size: 24px;
     -webkit-transition: all 0.2s;
@@ -98,7 +98,7 @@ body {
 }
 
 .search .btn:hover {
-    background-color: #B87704;
+    background-color: #007ba9;
     cursor: pointer;
 }
 

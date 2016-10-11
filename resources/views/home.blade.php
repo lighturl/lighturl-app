@@ -8,8 +8,6 @@
     <title>LightURL -lighten to your long url-</title>
     <link rel="stylesheet" href="css/foundation.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/clipboard.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -27,7 +25,7 @@
                        autocorrect="off" autocapitalize="off" required/>
             </div>
             <div class="btn large-3 left columns">
-                <div class="button-text">Get LightURL</div>
+                <div class="button-text">Lighten</div>
             </div>
         </div>
         <div class="clearfix"></div>
@@ -73,7 +71,7 @@
             // loop
             loop: true,
             // false = infinite
-            loopCount: 3,
+            loopCount: 5,
             // show cursor
             showCursor: true,
             // character for cursor
