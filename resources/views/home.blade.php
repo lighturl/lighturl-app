@@ -14,6 +14,11 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
+<div class="row">
+    <div class="large-3 columns">
+        <img src="../img/lighturl-logo.png"/>
+    </div>
+</div>
 <div class="empty-space large-12 large-centered"><span class="subtitle"></span><br><br>Always <span
             class="title"></span>
 </div>
