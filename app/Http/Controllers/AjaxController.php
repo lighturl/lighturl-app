@@ -21,7 +21,7 @@ class AjaxController extends Controller
     public function shorten(Request $request)
     {
         $key = $this->lighturl->lighten($request->input('heavyUrl'));
-        $light = env('APP_URL', $_SERVER["HTTP_HOST"]) . $key;
+        $light = env('APP_URL', $_SERVER["HTTP_HOST"]) .'/'. $key;
 
         return $light;
 
